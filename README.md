@@ -1,7 +1,8 @@
 # GDSC IIEST Hacktoberfest Repo 🚀
 ![Figma Design](https://user-images.githubusercontent.com/76564889/194760114-bbda988e-7abb-4e7f-8d37-7773c8978aa2.png)
 
-Maintainer: Aanya9693
+Maintainer: [@Aanya9693](https://github.com/aanya9693)
+
 Welcome to the GDSC IIEST Hacktoberfest repository! 🎉
 
 ## About
