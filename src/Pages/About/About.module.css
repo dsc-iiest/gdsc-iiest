@@ -1,0 +1,51 @@
+.aboutContainer{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.bodyContainer{
+    display: flex;
+    padding-left: 3rem;
+
+}
+
+.goalsWrapper{
+    width: 90%;
+    /* background-color: grey; */
+}
+
+.heroSection{
+    width:50%;
+}
+.bottom{
+    display: flex;
+    /* align-items: center; */
+    gap: 4rem;
+}
+
+.iconsWrapper{
+display: flex;
+flex-direction: column;
+padding-top: 4rem;
+gap: 1rem;
+}
+.socialmediaIcon{
+    width: 30px;
+    cursor: pointer;
+    object-fit: cover;}
+.joinBtn{
+    background-color: rgb(242,72,34);
+    color: rgb(145,146,147);
+    border: none;
+    height: 34px;
+    width: 162px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnWrapper{
+    display: flex;
+    padding-top: 2rem;
+}

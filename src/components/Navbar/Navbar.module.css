@@ -1,0 +1,33 @@
+.navbarContainer{
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	align-items: center;
+	display: flex;
+}
+.logoImg{
+	object-fit: cover;
+	cursor: pointer;
+}
+.imgWrapper{
+	width: 70%;
+}
+.NavlinkWrapper{
+	display: flex;
+	width: 30%;
+	align-items: center;
+	justify-content: space-around;
+}
+.pages{
+	cursor: pointer;
+	color: grey;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 1px;
+
+}
+
+.pages:hover{
+	color : black;
+	letter-spacing: 1px;
+
+}

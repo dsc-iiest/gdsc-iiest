@@ -1,0 +1,21 @@
+.eventdetailContainer{
+    background-color: green;
+    width: 24%;
+    /* height: 330px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    gap: 0.5rem;
+}
+
+.whiteBox{
+    background-color: rgb(145,146,147);
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+.description{
+    color: grey;
+}

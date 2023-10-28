@@ -1,40 +1,28 @@
-import React from 'react';
-import "./Navbar.css";
- 
+import React from "react";
+import styles from "./Navbar.module.css";
+import logo from "./../../img/logo.png";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
-    <div class="navbar-dark bg-dark header">
-       <div class="container">
-          <div class="row">
-           <div class="col-sm-12"> 
-            <nav class="navbar navbar-expand-lg ">
-              {/* <a class="navbar-brand text-white" href="#">Gammy Tours</a> */}
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
- 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item ">
-                    <a class="nav-link " href="#about">About<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#destinations">Destinations<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item dropdown">
-                  <a class="nav-link" href="#places">Places<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#tourist">Tourists Detail<span class="sr-only">(current)</span></a>
-                  </li>
-                </ul>
-                 
-              </div>
-             </nav>
-            </div>
-          </div>
-        </div>
-    </div> 
+    <div className={styles.navbarContainer}>
+      <div className={styles.imgWrapper}>
+        <Link to="/">
+          <img className={styles.logoImg} src={logo} alt="navbarLogo" />
+        </Link>
+      </div>
+      <div className={styles.NavlinkWrapper}>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <h3 className={styles.pages}>Home</h3>
+        </Link>
+        <Link style={{ textDecoration: "none" }} to="/event">
+          <h3 className={styles.pages}>Events</h3>
+        </Link>
+        <Link style={{ textDecoration: "none" }} to="/about">
+          <h3 className={styles.pages}>About</h3>
+        </Link>
+      </div>
+    </div>
   );
 };
 
