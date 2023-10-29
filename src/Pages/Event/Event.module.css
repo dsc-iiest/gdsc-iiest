@@ -1,0 +1,59 @@
+.eventContainer{
+    width: 100%;
+    height: 100%;
+    background-color: #f1f3f4;
+
+}
+
+.heroSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.socialmediaIcon{
+    width: 30px;
+    object-fit: cover;
+  }
+  
+  .socialmediaIconWrapper{
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 44%;
+
+  }
+  
+  .bottom{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    padding-bottom: 2rem;
+  }
+  .btnWrapper{
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+
+  .btn{
+    background-color: rgb(242,72,34);
+    color: #403b3b;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    height: 34px;
+    width: 189px;
+    border-radius: 8px;
+  }
+
+  .middleEventDetail {
+    height: 150px;
+    width: 130px;
+    background-color: red;
+  }
+  
+  
