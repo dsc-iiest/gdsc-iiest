@@ -3,13 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .appContainer{
   min-height:100vh ;
   height: auto;
   width: 100%;
-  background-color: white;
+  background-color: #f1f3f4;
 }
 
 .centerBox{
@@ -25,7 +27,7 @@
   /* justify-content: center; */
 }
 .gdscImg{
-    width: 80%;
+    width: 72%;
 
     height: 80%;
 }
@@ -41,26 +43,35 @@
 .socialmediaIcon{
   width: 30px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .socialmediaIconWrapper{
-  padding: 0 5rem;
+
+padding-left: 5rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 50%;
+  width: 40%;
 }
 
+.description{
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+
+}
 
 .exploreBtn{
  background-color: rgb(242,72,34);
- color:grey;
  border: none;
- width: 122px;
- height: 29px;
+ width: 170px;
+ height: 36px;
  border-radius: 8px;
  letter-spacing: 1px;
  font-weight: 600;
+ color: #403b3b;
 }
 .explorebtnWrapper{
   display: flex;
@@ -73,5 +84,5 @@
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1.25rem;
 }

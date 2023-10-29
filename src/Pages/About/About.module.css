@@ -1,28 +1,36 @@
 .aboutContainer{
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: #f1f3f4;
     
 }
 
 .bodyContainer{
     display: flex;
     padding-left: 3rem;
+    gap: 5rem;
+    padding-bottom: 2rem;
 
 }
 
 .goalsWrapper{
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     /* background-color: grey; */
 }
 
 .heroSection{
     width:50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 .bottom{
     display: flex;
     /* align-items: center; */
-    gap: 4rem;
+    gap: 7rem;
 }
 
 .iconsWrapper{
@@ -37,10 +45,12 @@ gap: 1rem;
     object-fit: cover;}
 .joinBtn{
     background-color: rgb(242,72,34);
-    color: rgb(145,146,147);
+    color: #403b3b;
     border: none;
-    height: 34px;
-    width: 162px;
+    height: 38px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    width: 240px;
     border-radius: 5px;
     cursor: pointer;
 }

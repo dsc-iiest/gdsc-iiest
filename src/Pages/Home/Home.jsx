@@ -17,13 +17,13 @@ const Home = () => {
             Google Developer Student Clubs are community groups for college and
             university students interested in Google developer technologies.
           </h3>
-          <p>
+          <p className={styles.description}>
             Students from all undergraduate or graduate programs with an
             interest in growing as a developer are welcome. By joining a GDSC,
             students grow their knowledge in a peer-to-peer learning environment
             and build solutions for local businesses and their community.{" "}
           </p>
-          <p>
+          <p  className={styles.description}>
             Google Developer Student Clubs is a program supported by Google
             Developers.
           </p>
@@ -36,7 +36,7 @@ const Home = () => {
         <div className={styles.socialmediaIconWrapper}>
           <img
             className={styles.socialmediaIcon}
-            src={Insta}
+            src={Facebook}
             alt="Social media Icon"
           />
           <img
@@ -46,7 +46,7 @@ const Home = () => {
           />
           <img
             className={styles.socialmediaIcon}
-            src={Facebook}
+            src={Insta}
             alt="Social media Icon"
           />
         </div>

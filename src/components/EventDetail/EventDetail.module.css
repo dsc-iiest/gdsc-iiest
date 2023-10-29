@@ -1,7 +1,7 @@
 .eventdetailContainer{
-    background-color: green;
+    background-image: radial-gradient(circle, #5d0067b7 0%, #00d4ff 100%);
+
     width: 24%;
-    /* height: 330px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,12 +10,12 @@
 }
 
 .whiteBox{
-    background-color: rgb(145,146,147);
+    background-color: #d9d9d9a5;
     width: 80%;
     height: 80%;
     border-radius: 8px;
     margin-top: 1rem;
 }
 .description{
-    color: grey;
+    color: rgba(217, 71, 71, 0.966);
 }

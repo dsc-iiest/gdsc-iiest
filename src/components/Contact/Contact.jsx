@@ -15,15 +15,15 @@ const Contact = () => {
       </div>
       <div className={styles.bodyForm}>
         <div className={styles.inputWrapper}>
-          <p>Name</p>
+          <p className={styles.placeholder}>Name</p>
           <input className={styles.inputBox} type="text" />
         </div>
         <div className={styles.inputWrapper}>
-          <p>Email</p>
+          <p className={styles.placeholder}>Email</p>
           <input className={styles.inputBox} type="text" />
         </div>
         <div className={styles.inputWrapper}>
-          <p>Password</p>
+          <p className={styles.placeholder}>Password</p>
           <input className={styles.inputBox} type="text" />
         </div>
         <div className={styles.signupWrapper}>
@@ -35,8 +35,8 @@ const Contact = () => {
           <div className={styles.line}></div>
         </div>
         <div className={styles.logoWrapper}>
-          <FcGoogle />
-          <BsApple />
+          <FcGoogle className={styles.socialmediaIcon} />
+          <BsApple  className={styles.socialmediaIcon}/>
         </div>
       </div>
     </div>

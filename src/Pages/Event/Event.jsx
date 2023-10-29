@@ -13,14 +13,14 @@ const Event = () => {
       <Navbar />
       <div className={styles.heroSection}>
         <EventDetail height={330} />
-        <EventDetail height={370} />
+        <EventDetail height={360} />
         <EventDetail height={330} />
       </div>
       <div className={styles.bottom}>
         <div className={styles.socialmediaIconWrapper}>
           <img
             className={styles.socialmediaIcon}
-            src={Insta}
+            src={Facebook}
             alt="Social media Icon"
           />
           <img
@@ -30,7 +30,7 @@ const Event = () => {
           />
           <img
             className={styles.socialmediaIcon}
-            src={Facebook}
+            src={Insta}
             alt="Social media Icon"
           />
         </div>
